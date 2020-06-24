@@ -1,10 +1,15 @@
-# PSKnock
+# Powershell-Knock
 
 Powershell Implementation of the Knock command
 
-You can enable it using the folowing command :
+To use this module, the "Powershell-Knock" folder, contaning both the psm1
+and the psd1 files, must be in one of your default Powershell Modules folder.
+You can check what they are using :
+`$env:PSModulePath`
 
-`Import-Module <Path_to_the_.psm1_file>`
+Otherwise, you can manually enable it using the folowing command :
+
+`Import-Module <Path_to_the_Powershell-Knock.psm1_file>`
 
 # Command list :
 
