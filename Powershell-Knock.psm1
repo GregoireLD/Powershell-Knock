@@ -3,7 +3,7 @@ function Send-Knock {
     Param(
             [String] $remoteHost = "localhost",
             [ValidateRange(1,65535)][int[]]$ports,
-            [int]$sleepInMs = 20
+            [int]$sleepInMs = 10
     )
     
     foreach($port in $ports)
